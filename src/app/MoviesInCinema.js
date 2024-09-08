@@ -12,7 +12,8 @@ export default function MoviesInCinema () {
     useEffect(() => {
         fetchMoviesInCinema()
         .then((response) => {
-            setMovies(response.data.results)
+            const firstFiveMovies = response.data.results.slice(0, 5);
+            setMovies(firstFiveMovies)
             setLoading(false)
         })
         .catch((error) => {

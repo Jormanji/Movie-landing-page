@@ -11,8 +11,8 @@ const api = axios.create({
 console.log('API Key:', process.env.NEXT_PUBLIC_TMDB_API_KEY);
 
 //Trending Movies API
-const fetchTrendingMovies = () => {
-  return api.get('/trending/movie/week');
+const fetchTrendingMovies = (timeWindow) => {
+  return api.get(`/trending/movie/${timeWindow}`);
 };
 
 //Popular Movies API
