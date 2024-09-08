@@ -4,9 +4,11 @@ const axios = require("axios");
 const api = axios.create({
   baseURL: 'https://api.themoviedb.org/3',
   params: {
-    api_key: process.env.TMDB_API_KEY
+    api_key: process.env.NEXT_PUBLIC_TMDB_API_KEY
   }
 });
+
+console.log('API Key:', process.env.NEXT_PUBLIC_TMDB_API_KEY);
 
 //Trending Movies API
 const fetchTrendingMovies = () => {
@@ -28,9 +30,14 @@ const fetchCurrentlyPlayingMovies = () => {
   return api.get('/movie/now_playing')
 }
 
+module.exports = {
+  fetchTrendingMovies,
+  fetchPopularMovies,
+  fetchTopRatedMovies,
+  fetchCurrentlyPlayingMovies
+}
 
-
-// //Trending Movies API test
+//Trending Movies API test
 // fetchTrendingMovies()
 //   .then(response => {
 //     console.log('Trending Movies:', response.data.results);
