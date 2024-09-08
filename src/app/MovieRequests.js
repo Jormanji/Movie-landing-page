@@ -26,7 +26,7 @@ const fetchTopRatedMovies = () => {
 }
 
 //Currently Playing Movies API
-const fetchCurrentlyPlayingMovies = () => {
+const fetchMoviesInCinema = () => {
   return api.get('/movie/now_playing')
 }
 
@@ -34,7 +34,7 @@ module.exports = {
   fetchTrendingMovies,
   fetchPopularMovies,
   fetchTopRatedMovies,
-  fetchCurrentlyPlayingMovies
+  fetchMoviesInCinema
 }
 
 //Trending Movies API test
