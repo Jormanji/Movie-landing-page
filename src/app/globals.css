@@ -129,9 +129,7 @@ a {
   cursor: pointer;
 }
 
- Hero
 .hero-section {
-  background-image: url('/path/to/your/background-image.jpg');
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
@@ -155,7 +153,8 @@ a {
   line-height: 1.6;
   margin-bottom: 30px;
 }
-=======
+
+
 .custom-header {
   display: flex;
   justify-content: space-between;
@@ -266,4 +265,4 @@ a {
     margin-top: 10px;
   }
 }
-main
+
