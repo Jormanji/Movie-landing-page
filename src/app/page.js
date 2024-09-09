@@ -16,7 +16,9 @@ export default function Home() {
 
 
      <div className="section-container">
+     <div className="section-title-container">
         <h2 className="section-heading">Trending Movies</h2>
+      </div>
         <div className="movies-list">
           <TrendingMovies />
         </div>
@@ -26,7 +28,9 @@ export default function Home() {
 
 
       <div className="section-container">
+      <div className="section-title-container">
         <h2 className="section-heading">Popular Movies</h2>
+      </div>
         <div className="movies-list">
           <PopularMovies />
         </div>
@@ -35,7 +39,9 @@ export default function Home() {
 
 
       <div className="section-container">
+      <div className="section-title-container">
         <h2 className="section-heading">Top Rated Movies</h2>
+      </div>
         <div className="movies-list">
           <TopRatedMovies />
         </div>
@@ -45,7 +51,9 @@ export default function Home() {
 
 
       <div className="section-container">
+        <div className="section-title-container">
         <h2 className="section-heading">Movies Still in Cinema</h2>
+        </div>
         <div className="movies-list">
           <MoviesInCinema />
         </div>
