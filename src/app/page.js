@@ -5,11 +5,14 @@ import TrendingMovies from "./TrendingMovies";
 import PopularMovies from "./PopularMovies";
 import TopRatedMovies from "./TopRatedMovies";
 import MoviesInCinema from "./MoviesInCinema";
+import Hero from "./Hero";
 
 export default function Home() {
   return (
     <div>
     <Header />
+
+    <Hero />
 
 
      <div className="section-container">
