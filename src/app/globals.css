@@ -129,6 +129,33 @@ a {
   cursor: pointer;
 }
 
+ Hero
+.hero-section {
+  background-image: url('/path/to/your/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+=======
 .custom-header {
   display: flex;
   justify-content: space-between;
@@ -239,3 +266,4 @@ a {
     margin-top: 10px;
   }
 }
+main
