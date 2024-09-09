@@ -266,3 +266,42 @@ a {
   }
 }
 
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer .column {
+  text-align: left;
+}
+
+.footer .list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer .link {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer .link:hover {
+  color: #ffcc00;
+}
+
+.footer .copyright {
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 14px;
+}
