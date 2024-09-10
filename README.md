@@ -7,7 +7,8 @@ This project is a responsive movie discovery landing page that dynamically fetch
 To run this project locally, you will need the following installed on your machine:
 
 
-Node.js (v14.x or newer)
+Node.js
+Next.js
 A TMDb API key to fetch movie data.
 
 
