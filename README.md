@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**MovieDB - Movie Discovery Platform**
+This project is a responsive movie discovery landing page that dynamically fetches and displays data from the TMDb API. The page showcases trending, popular, and top-rated movies in a visually appealing and user-friendly layout. Built using Next.js, the app also features search functionality and a responsive design for optimal viewing on both desktop and mobile devices.
 
-## Getting Started
+**Getting Started**
+Prerequisites
+To run this project locally, you will need the following installed on your machine:
 
-First, run the development server:
+Node.js (v14.x or newer)
+A TMDb API key to fetch movie data.
 
-```bash
+
+**Installation**
+Clone the repository:
+
+- Copy code:
+git clone https://github.com/your-username/moviedb.git
+- Navigate to the project directory
+
+
+**Install the dependencies:**
+
+- Copy code:
+npm install
+ or
+yarn install
+
+
+**Create a .env.local file in the root directory and add your TMDb API key:**
+
+Copy code:
+NEXT_PUBLIC_TMDB_API_KEY=INSERT_API_KEY_HERE   ( <--- Put your API key from TMDB here.)
+
+
+**Run the development server:**
+
+- Copy code:
 npm run dev
-# or
+ or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 with your browser to view the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+**PROJECT DECISIONS**
 
-To learn more about Next.js, take a look at the following resources:
+API Selection
+I chose to use the TMDb API due to its API being well-documented, making it easy to integrate into the project. Its simplicity and the wide range of available data made it an ideal choice for building a visually engaging website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Key Decisions:
+Responsive Design: Ensuring the site is fully functional and visually appealing on both desktop and mobile devices was a priority. Media queries were used to adjust the layout, especially for movie cards and the navigation bar.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+UI/UX: I aimed to create an intuitive interface by displaying movie posters prominently, allowing users to quickly get a sense of trending films. The inclusion of interactive elements like search bars and filter options helped enhance the user experience.
 
-## Deploy on Vercel
+Component-Based Structure: I followed a component-based architecture to keep the code modular and reusable, particularly for elements like movie cards and headers, allowing for future scalability.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Error Handling: I implemented basic error handling for fetching data from the API, displaying appropriate messages when API data fails to load.
