@@ -4,8 +4,6 @@ This project is a responsive movie discovery landing page that dynamically fetch
 
 **Getting Started**
 
-Prerequisites
-
 To run this project locally, you will need the following installed on your machine:
 
 
