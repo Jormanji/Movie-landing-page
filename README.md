@@ -1,4 +1,5 @@
 **MovieDB - Movie Discovery Platform**
+ 
 This project is a responsive movie discovery landing page that dynamically fetches and displays data from the TMDb API. The page showcases trending, popular, and top-rated movies in a visually appealing and user-friendly layout. Built using Next.js, the app also features search functionality and a responsive design for optimal viewing on both desktop and mobile devices.
 
 **Getting Started**
