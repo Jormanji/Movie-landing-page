@@ -52,7 +52,7 @@ Open http://localhost:3000 with your browser to view the app.
 
 **PROJECT DECISIONS**
 
-API Selection
+API Selection:
 
 I chose to use the TMDb API due to its API being well-documented, making it easy to integrate into the project. Its simplicity and the wide range of available data made it an ideal choice for building a visually engaging website.
 
