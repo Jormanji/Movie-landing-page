@@ -62,3 +62,5 @@ UI/UX: I aimed to create an intuitive interface by displaying movie posters prom
 Component-Based Structure: I followed a component-based architecture to keep the code modular and reusable, particularly for elements like movie cards and headers, allowing for future scalability.
 
 Error Handling: I implemented basic error handling for fetching data from the API, displaying appropriate messages when API data fails to load.
+
+Separation of PopularMovies, TrendingMovies etc: I originally tried to merge them into one but wasn't able to get it done easily, so I reverted to separating them out as I was taught good code is code that works, not code that is packaged in the least code possible. It is something I would refactor later on but I just wanted to get it working cleanly and readable. 
