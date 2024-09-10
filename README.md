@@ -34,7 +34,7 @@ yarn install
 
 **Create a .env.local file in the root directory and add your TMDb API key:**
 
-Copy code:
+- Copy code:
 NEXT_PUBLIC_TMDB_API_KEY=INSERT_API_KEY_HERE   ( <--- Put your API key from TMDB here.)
 
 
